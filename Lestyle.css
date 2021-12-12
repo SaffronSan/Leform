@@ -23,3 +23,14 @@ form input{
   border-radius: 0%;
   border: none;
 }
+form button{
+  color: black;
+  background: white;
+  border-radius: 0%;
+  border: none;
+  padding: 0px 10px 0px 10px;
+}
+form button:hover{
+  color: white;
+  background: darkblue;
+}
