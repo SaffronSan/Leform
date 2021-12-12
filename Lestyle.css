@@ -1,6 +1,9 @@
 body{
   background: darkblue;
 }
+audio{
+  display:none;
+}
 .backdiv{
   height:500px;
   width: 300px;
