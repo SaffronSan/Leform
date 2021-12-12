@@ -1,9 +1,25 @@
+body{
+  background: darkblue;
+}
 .backdiv{
-  height:75vh;
-  width: 30%;
+  height:500px;
+  width: 300px;
   background:rgba(0,0,0,0.6);
   position: absolute;
-  top:50%;
+  top:35%;
   left:50%;
   transform: translate(-50%,-50%);
+}
+form {
+  text-align: center;
+  font-family: "Copperplate", Times, serif;
+}
+form label,h1{
+  color: white;
+  text-align: center;
+}
+form input{
+  margin-bottom: 50px;
+  border-radius: 0%;
+  border: none;
 }
