@@ -17,7 +17,7 @@ function modfiy(opp) {
     } else {
         currNum -= 1;
     }
-    changeQuestion(5);
+    changeQuestion(currNum);
 }
 function changeQuestion(num) {
     if (num == 1) {
@@ -50,7 +50,8 @@ function changeQuestion(num) {
         document.getElementById("ans2").value = "ans";
         document.getElementById("ans3").value = "ans";
         document.getElementById("ans4").value = "ans";
+    }else if(num > 5){
+        changeQuestion(1);
     }
     document.getElementById("tracker").innerHTML = num;
-    var track = num;
 }
