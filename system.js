@@ -4,7 +4,7 @@ function sysCheck(){
   var text;
   if(name == "gcell" || name == "anish" && pass == "123"){
       alert("Nice, you're good at math");
-      window.open("https://saffronsan.github.io/Leform//rickroll.html","_blank");
+      window.open("https://saffronsan.github.io/Leform//reward.html","_blank");
    }else{
       alert("Noob, get outta here");
     }
