@@ -1,13 +1,16 @@
 body{
   background: darkblue;
+  margin: 0px;
 }
 audio{
   display:none;
 }
 .backdiv{
-  height:500px;
+  height:300px;
   width: 300px;
-  background:rgba(0,0,0,0.6);
+  background: darkgrey;
+  border: solid grey 5px;
+  border-radius: 10px;
   position: absolute;
   top:35%;
   left:50%;
@@ -21,27 +24,58 @@ form label,h1{
   color: white;
   text-align: center;
 }
-form input[type = text]{
-  margin-bottom: 10px;
-  border-radius: 0%;
-  border: none;
-}
 form button{
+  height: 40px;
+  width: 200px;
   color: black;
   background: white;
-  border-radius: 0%;
+  border-radius: 2px;
   border: none;
   padding: 0px 10px 0px 10px;
 }
 form button:hover{
   color: white;
-  background: darkblue;
+  border: solid blue 2px;
+  background: grey;
+}
+form img{
+  height: 50px;
+  width: 50px;
 }
 #uname{
   background-image: url("/Leform/imgFolder/acclogo.png");
-  position: left;
+  background-position: left;
+  height: 40px;
   background-size: 17px;
   background-repeat: no-repeat;
-  padding-left: 19px;
-  border-radius: 9px;
+  padding-left: 30px;
+  border-radius: 2px;
+}
+#upass{
+  background-image: url("/Leform/imgFolder/locklogo.png");
+  background-position: left;
+  height: 40px;
+  background-size: 17px;
+  background-repeat: no-repeat;
+  padding-left: 30px;
+  border-radius: 2px;
+}
+form input{
+  margin-bottom: 10px;
+  border-radius: 0%;
+  width: 100px;
+  border: none;
+  
+}
+form input:hover{
+  outline: solid grey 2px;
+}
+form input:focus{
+  width: 60%;
+  transition: width 1s;
+  transition-timing-function: ease-in;
+}
+form input:clicked{
+  outline: navy 5px;
+  background: darkgrey;
 }
