@@ -37,7 +37,11 @@ form button:hover{
   color: white;
   background: darkblue;
 }
-form img{
-  height: 50px;
-  width: 50px;
+#uname{
+  background-image: url("/Leform/imgFolder/acclogo.png");
+  position: left;
+  background-size: 17px;
+  background-repeat: no-repeat;
+  padding-left: 19px;
+  border-radius: 9px;
 }
