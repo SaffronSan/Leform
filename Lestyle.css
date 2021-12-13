@@ -21,8 +21,8 @@ form label,h1{
   color: white;
   text-align: center;
 }
-form input{
-  margin-bottom: 50px;
+form input[type = text]{
+  margin-bottom: 10px;
   border-radius: 0%;
   border: none;
 }
