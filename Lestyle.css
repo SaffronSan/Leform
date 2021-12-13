@@ -1,5 +1,5 @@
 body{
-  background: darkblue;
+  background: gray;
   margin: 0px;
 }
 audio{
@@ -8,9 +8,9 @@ audio{
 .backdiv{
   height:300px;
   width: 300px;
-  background: darkgrey;
-  border: solid grey 5px;
-  border-radius: 10px;
+  background: #b9b592;
+  border: outset #cfcccc 10px;
+  border-radius: 2px;
   position: absolute;
   top:35%;
   left:50%;
@@ -35,7 +35,6 @@ form button{
 }
 form button:hover{
   color: white;
-  border: solid blue 2px;
   background: grey;
 }
 form img{
