@@ -37,3 +37,7 @@ form button:hover{
   color: white;
   background: darkblue;
 }
+form img{
+  height: 50px;
+  width: 50px;
+}
