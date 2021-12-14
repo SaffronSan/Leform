@@ -6,10 +6,10 @@
         <script src="system.js"></script>
     </head>
     <body>
-        <audio controls autoplay loop>
+        <audio controls="" autoplay="" loop="">
             <source src="/Leform/mp3Folder/LetGo%20.mp3" type="audio/mpeg">
         </audio>
-        <p id="tracker">0</p>
+        <p id="tracker">4</p>
         <p id="QA1">blank</p>
         <p id="QA2">blank</p>
         <p id="QA3">blank</p>
@@ -17,18 +17,19 @@
         <div class="contain">
             <form>
                 <fieldset>
-                    <label id="Question">What happened on 1989?</label>
+                    <label id="Question">Question 4</label>
                     <br>
                     <label>A.</label>
-                    <input class="but" id="ans1" onlcick="updateAns('a');" type="button" value="Titanam square masscar!"><br>
+                    <button class="but" id="ans1" onlcick="updateAns('a');">ans</button>
+                    <br>
                     <label>B.</label>
-                    <input class="but" onlcick ="updateAns('b');" id="ans2" type="button" value="Someone died!">
+                    <button class="but" id="ans2" onlcick="updateAns('b');">ans</button>
                     <br>
                     <label>C.</label>
-                    <input class="but" onlcick="updateAns('c');" id="ans3" type="button" value="Nothing!">
+                    <button class="but" id="ans3" onlcick="updateAns('c');">ans</button>
                     <br>
                     <label>D.</label>
-                    <input class="but" onlcick ="updateAns('d');" id="ans4" type="button" value="Nani?">
+                    <button class="but" id="ans4" onlcick="updateAns('d');">ans</button>
                 </fieldset>
             </form>
             <div class="buttonCon">
@@ -41,5 +42,7 @@
                 <button onclick="modfiy('next');" class="next">next</button>
             </div>
         </div>
-    </body>
+    
+
+</body>
 </html>
