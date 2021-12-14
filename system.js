@@ -11,10 +11,16 @@ function sysCheck() {
 }
 function modfiy(opp) {
     let currNum = parseInt(document.getElementById("tracker").textContent);
-    if (opp == 'next') {
-        currNum += 1;
-    } else {
-        currNum -= 1;
+    if(currNum >= 5){
+        currNum = 5;
+    }else if(currNum <= 0){
+        currNum = 1;
+    }else{ 
+        if (opp == 'next') {
+            currNum += 1;
+        } else if(opp = 'pre'){
+            currNum -= 1;
+        }
     }
     changeQuestion(currNum);
 }
@@ -49,8 +55,6 @@ function changeQuestion(num) {
         document.getElementById("ans2").value = "ans";
         document.getElementById("ans3").value = "ans";
         document.getElementById("ans4").value = "ans";
-    }else if(num > 5){
-        changeQuestion(1);
     }
     document.getElementById("tracker").innerHTML = num;
 }
