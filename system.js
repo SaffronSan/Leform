@@ -11,16 +11,20 @@ function sysCheck() {
 }
 function modfiy(opp) {
     let currNum = parseInt(document.getElementById("tracker").textContent);
-    if(currNum > 5){
-        currNum = 5;
-    }else if(currNum <= 0){
-        currNum = 1;
-    }else{ 
-        if (opp == 'next') {
-            currNum += 1;
-        } else if(opp = 'pre'){
-            currNum -= 1;
+     if (opp == 'next') {
+        if(currNum > 5){
+           currNum = 4;
+        }else(currNum <= 0){
+            currNum = 0;
         }
+        currNum += 1;
+      } else if(opp = 'pre'){
+        if(currNum > 5){
+           currNum = 6;
+        }else(currNum <= 0){
+            currNum = 2;
+        }
+        currNum -= 1;
     }
     changeQuestion(currNum);
 }
