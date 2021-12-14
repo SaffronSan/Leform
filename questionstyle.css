@@ -1,16 +1,20 @@
-        fieldset{
-            width: 150px;
-        }
-        body{
-            margin: 0px;
-        }
-        .but:hover{
-            background: black;
-            color: white;
-        }
-        .but{
-            margin-top: 10;
-        }
-        p{
-            display: none;
-        }
+fieldset {
+    width: 150px;
+}
+
+body {
+    margin: 0px;
+}
+
+.but:hover {
+    background: black;
+    color: white;
+}
+
+.but {
+    margin-top: 10;
+}
+
+p {
+    display: none;
+}
