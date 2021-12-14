@@ -10,9 +10,8 @@ function sysCheck() {
     }
 }
 function modfiy(opp) {
-    var input = document.getElementById("tracker").value;
-    var currNum = parseInt(input);
-    if (opp == "next") {
+    let currNum = parseInt(document.getElementById("tracker").textContent);
+    if (opp == 'next') {
         currNum += 1;
     } else {
         currNum -= 1;
