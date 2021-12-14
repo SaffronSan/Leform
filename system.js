@@ -37,7 +37,7 @@ function updateAns(answer){
          document.getElementById('QA2').innerHTML = answer;
     }else if(currQuesiton == 3){
          document.getElementById('QA3').innerHTML = answer;
-    }else if(currQuesiton = 4){
+    }else if(currQuesiton == 4){
          document.getElementById('QA4').innerHTML = answer;
     }
 }
