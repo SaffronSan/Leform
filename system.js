@@ -29,6 +29,18 @@ function modfiy(opp) {
      }
     changeQuestion(currNum);
 }
+function updateAns(answer){
+    let currQuesiton = parseInt(document.getElementById("tracker").textContent);
+    if(currQuesiton == 1){
+        document.getElementById('QA1').innerHTML = answer;
+    }else if(currQuesiton == 2){
+         document.getElementById('QA2').innerHTML = answer;
+    }else if(currQuesiton == 3){
+         document.getElementById('QA3').innerHTML = answer;
+    }else if(currQuesiton = 4){
+         document.getElementById('QA4').innerHTML = answer;
+    }
+}
 function changeQuestion(num) {
     if (num == 1) {
         document.getElementById("Question").innerHTML = "Is tawian a country?";
