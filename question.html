@@ -10,22 +10,25 @@
             <source src="/Leform/mp3Folder/LetGo%20.mp3" type="audio/mpeg">
         </audio>
         <p id="tracker">0</p>
+        <p id="QA1">blank</p>
+        <p id="QA2">blank</p>
+        <p id="QA3">blank</p>
+        <p id="QA4">blank</p>
         <div class="contain">
             <form>
                 <fieldset>
-                    <label id="Question">Question</label>
+                    <label id="Question">What happened on 1989?</label>
                     <br>
                     <label>A.</label>
-                    <input class="but" id="ans1" type="button" value="ans">
-                    <br>
+                    <input class="but" id="ans1" onlcick="updateAns('a');" type="button" value="Titanam square masscar!"><br>
                     <label>B.</label>
-                    <input class="but" id="ans2" type="button" value="ans">
+                    <input class="but" onlcick ="updateAns('b');" id="ans2" type="button" value="Someone died!">
                     <br>
                     <label>C.</label>
-                    <input class="but" id="ans3" type="button" value="ans">
+                    <input class="but" onlcick="updateAns('c');" id="ans3" type="button" value="Nothing!">
                     <br>
                     <label>D.</label>
-                    <input class="but" id="ans4" type="button" value="ans">
+                    <input class="but" onlcick ="updateAns('d');" id="ans4" type="button" value="Nani?">
                 </fieldset>
             </form>
             <div class="buttonCon">
