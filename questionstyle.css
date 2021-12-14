@@ -1,18 +1,40 @@
-fieldset {
-    width: 150px;
+.contain {
+    padding: 10px;
+    height: 200px;
+    width: 300px;
+    background: #b9b592;
+    position: absolute;
+    border: outset #cfcccc 10px;
+    border-radius: 2px;
+    top:35%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color: white;
 }
-
+.contain fieldset{
+    border:none;
+    outline: none;
+}
+.buttonCon{
+    margin-top: 40px;
+    text-align: center;
+}
+button{
+    margin-right:10px;
+}
 body {
     margin: 0px;
+    background: gray;
 }
 
 .but:hover {
-    background: black;
+    background: gray;
     color: white;
 }
-
 .but {
-    margin-top: 10;
+    border: none;
+    border-radius: 2px;
+    margin-top: 10px;
 }
 
 p {
