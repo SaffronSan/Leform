@@ -11,7 +11,7 @@ function sysCheck() {
 }
 function modfiy(opp) {
     let currNum = parseInt(document.getElementById("tracker").textContent);
-    if(currNum >= 5){
+    if(currNum > 5){
         currNum = 5;
     }else if(currNum <= 0){
         currNum = 1;
