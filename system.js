@@ -44,34 +44,34 @@ function updateAns(answer){
 function changeQuestion(num) {
     if (num == 1) {
         document.getElementById("Question").innerHTML = "Is tawian a country?";
-        document.getElementById("ans1").value = "It's state!";
-        document.getElementById("ans2").value = "Yes!";
-        document.getElementById("ans3").value = "Its a superpwoer!";
-        document.getElementById("ans4").value = "What's that?";
+        document.getElementById("ans1").textContent = "ans";
+        document.getElementById("ans2").textContent = "ans";
+        document.getElementById("ans3").textContent = "ans";
+        document.getElementById("ans4").textContent = "ans";
     } else if (num == 2) {
         document.getElementById("Question").innerHTML = "What happened on 1989?";
-        document.getElementById("ans1").value = "Titanam square masscar!";
-        document.getElementById("ans2").value = "Someone died!";
-        document.getElementById("ans3").value = "Nothing!";
-        document.getElementById("ans4").value = "Nani?";
+        document.getElementById("ans1").textContent = "ans";
+        document.getElementById("ans2").textContent = "ans";
+        document.getElementById("ans3").textContent = "ans";
+        document.getElementById("ans4").textContent = "ans";
     } else if (num == 3) {
         document.getElementById("Question").innerHTML = "Question 3";
-        document.getElementById("ans1").value = "ans";
-        document.getElementById("ans2").value = "ans";
-        document.getElementById("ans3").value = "ans";
-        document.getElementById("ans4").value = "ans";
+        document.getElementById("ans1").textContent = "ans";
+        document.getElementById("ans2").textContent = "ans";
+        document.getElementById("ans3").textContent = "ans";
+        document.getElementById("ans4").textContent = "ans";
     } else if (num == 4) {
         document.getElementById("Question").innerHTML = "Question 4";
-        document.getElementById("ans1").value = "ans";
-        document.getElementById("ans2").value = "ans";
-        document.getElementById("ans3").value = "ans";
-        document.getElementById("ans4").value = "ans";
+          document.getElementById("ans1").textContent = "ans";
+        document.getElementById("ans2").textContent = "ans";
+        document.getElementById("ans3").textContent = "ans";
+        document.getElementById("ans4").textContent = "ans";
     } else if (num == 5) {
         document.getElementById("Question").innerHTML = "Question 5";
-        document.getElementById("ans1").value = "ans";
-        document.getElementById("ans2").value = "ans";
-        document.getElementById("ans3").value = "ans";
-        document.getElementById("ans4").value = "ans";
+        document.getElementById("ans1").textContent = "ans";
+        document.getElementById("ans2").textContent = "ans";
+        document.getElementById("ans3").textContent = "ans";
+        document.getElementById("ans4").textContent = "ans";
     }
     document.getElementById("tracker").innerHTML = num;
 }
