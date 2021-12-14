@@ -14,18 +14,19 @@ function modfiy(opp) {
      if (opp == 'next') {
         if(currNum > 5){
            currNum = 4;
-        }else(currNum <= 0){
+        }else if (currNum <= 0){
             currNum = 0;
         }
         currNum += 1;
-      } else if(opp = 'pre'){
-        if(currNum > 5){
-           currNum = 6;
-        }else(currNum <= 0){
+      } 
+      else if(opp = 'pre'){
+         if(currNum > 5){
+            currNum = 6;
+         }else if(currNum <= 0){
             currNum = 2;
-        }
-        currNum -= 1;
-    }
+         }
+         currNum -= 1;
+     }
     changeQuestion(currNum);
 }
 function changeQuestion(num) {
