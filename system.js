@@ -44,16 +44,16 @@ function updateAns(answer){
 function changeQuestion(num) {
     if (num == 1) {
         document.getElementById("Question").innerHTML = "Is tawian a country?";
-        document.getElementById("ans1").textContent = "ans";
-        document.getElementById("ans2").textContent = "ans";
-        document.getElementById("ans3").textContent = "ans";
-        document.getElementById("ans4").textContent = "ans";
+        document.getElementById("ans1").textContent = "What's that!";
+        document.getElementById("ans2").textContent = "Yes!";
+        document.getElementById("ans3").textContent = "Si!";
+        document.getElementById("ans4").textContent = "Oui!";
     } else if (num == 2) {
         document.getElementById("Question").innerHTML = "What happened on 1989?";
-        document.getElementById("ans1").textContent = "ans";
-        document.getElementById("ans2").textContent = "ans";
-        document.getElementById("ans3").textContent = "ans";
-        document.getElementById("ans4").textContent = "ans";
+        document.getElementById("ans1").textContent = "Chinese Civil war";
+        document.getElementById("ans2").textContent = "Tiananmen square massacre!";
+        document.getElementById("ans3").textContent = "nothing!";
+        document.getElementById("ans4").textContent = "USSR FALLS!";
     } else if (num == 3) {
         document.getElementById("Question").innerHTML = "Question 3";
         document.getElementById("ans1").textContent = "ans";
