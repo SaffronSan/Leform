@@ -50,11 +50,8 @@ function reset(){
     document.getElementById('QA4').textContent = "blank";
     document.getElementById('QA5').textContent = "blank";
     document.getElementById("tracker").textContent = 1;
-    document.getElementById("Question").textContent = "Is tawian a country?";
-    document.getElementById("ans1").textContent = "What's that!";
-    document.getElementById("ans2").textContent = "Yes!";
-    document.getElementById("ans3").textContent = "Si!";
-    document.getElementById("ans4").textContent = "Oui!";
+    document.getElementById("Question").style.display = "inline-block";
+    changeQuestion(1);
     setButton('ch1','t');
     setButton('ch2','t');
     setButton('ch3','t');
