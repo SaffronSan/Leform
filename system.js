@@ -107,7 +107,7 @@ function modfiy(opp) {
 }
 function finalCheck(){
     let qOne = document.getElementById('QA1').textContent, qTwo = document.getElementById('QA2').textContent, qThree = document.getElementById('QA3').textContent, 
-    qFour = document.getElementById('QA4').textContent , qFive = document.getElementById('QA5').textContent, total = 0;
+    qFour = document.getElementById('QA4').textContent , qFive = document.getElementById('QA5').textContent, total = 0, text = "heres what you got!";
     document.getElementById("sub").style.display = "none";
     document.getElementById("reCon").style.display = "inline";
     document.getElementById("isSub").textContent = "true";
@@ -131,10 +131,10 @@ function finalCheck(){
     total *= 100;
     if(total == 100){
         //add the code to the link and give the user the password
-        alert(total + "%" + "\n" + document.getElementById('master').textContent + "\nUsername is gcell");
+        alert(text + "\n" + total + "%" + "\n" + document.getElementById('master').textContent + "\nUsername is gcell");
         window.open("https://saffronsan.github.io/Leform//login.html", "_blank");
     }else{
-        alert(total + "%" + "you suck, try again!");
+        alert(text + "\n" + total + "%" + "\nyou suck, try again!");
         document.getElementById("retry").style.display = "block";
     }
 }
