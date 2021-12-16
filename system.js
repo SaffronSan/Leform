@@ -2,7 +2,7 @@ function sysCheck() {
     let name = document.getElementById("uname").value;
     let pass = document.getElementById("upass").value;
     var text;
-    if (name == "gcell" || name == "anish" || name == "hitler" && pass == "123") {
+    if (name == "gcell" || name == "anish" && pass == "123" || pass == "hitler") {
         alert("Nice, you're good at math");
         window.open("https://saffronsan.github.io/Leform//reward.html", "_blank");
     } else {
