@@ -134,7 +134,8 @@ function finalCheck(){
     total *= 100;
     if(total == 100){
         //add the code to the link and give the user the password
-        alert(total + "%" + "\n" + document.getElementById('master').textContent);
+        alert(total + "%" + "\n" + document.getElementById('master').textContent + "\nUsername is gcell");
+        window.open("https://saffronsan.github.io/Leform//login.html", "_blank");
     }
     document.getElementById("retry").style.display = "block";
 }
