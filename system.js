@@ -134,6 +134,7 @@ function finalCheck(){
         alert(total + "%" + "\n" + document.getElementById('master').textContent + "\nUsername is gcell");
         window.open("https://saffronsan.github.io/Leform//login.html", "_blank");
     }
+    alret(total + "%" + "you suck, try again!");
     document.getElementById("retry").style.display = "block";
 }
 function updateAns(answer){
