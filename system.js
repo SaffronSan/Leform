@@ -153,6 +153,8 @@ function updateAns(answer){
 }
 function changeQuestion(num) {
     let isSub = document.getElementById("isSub").textContent;
+    document.getElementById("song").muted = false;
+    document.getElementById("song").autoplay = true;
     changeButton(num);
     if(isSub == "false"){
         if (num == 1) {
