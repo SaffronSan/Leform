@@ -133,9 +133,10 @@ function finalCheck(){
         //add the code to the link and give the user the password
         alert(total + "%" + "\n" + document.getElementById('master').textContent + "\nUsername is gcell");
         window.open("https://saffronsan.github.io/Leform//login.html", "_blank");
+    }else{
+        alert(total + "%" + "you suck, try again!");
+        document.getElementById("retry").style.display = "block";
     }
-    alret(total + "%" + "you suck, try again!");
-    document.getElementById("retry").style.display = "block";
 }
 function updateAns(answer){
     let currQuesiton = parseInt(document.getElementById("tracker").textContent);
