@@ -186,7 +186,7 @@ function changeQuestion(num) {
             document.getElementById("ans3").textContent = "Obama";
             document.getElementById("ans4").textContent = "Stalin";
         }
-        changeButton(num);
+        changeButton(num - 1);
         document.getElementById("tracker").innerHTML = num;
     }
 }
