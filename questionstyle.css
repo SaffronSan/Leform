@@ -14,10 +14,6 @@ audio{
     transform: translate(-50%,-50%);
     color: white;
 }
-.contain fieldset{
-    border:none;
-    outline: none;
-}
 .buttonCon{
     margin-top: 40px;
     text-align: center;
@@ -31,15 +27,35 @@ body {
 }
 
 .but:hover {
-    background: gray;
-    color: white;
+    background: white;
+    color: grey;
 }
-.but {
+.but{
+    background: grey;
+    color: white;
     border: none;
     border-radius: 2px;
     margin-top: 10px;
 }
-
-p {
+p{
+   display: none;
+}
+.q1, .q2,.q3,.q4,.q5{
+    border: none;
+}
+#result{
     display: none;
+}
+#master{
+    display: none;
+}
+#reCon{
+    display: none;
+    text-align: center;
+}
+#sub{
+    display: none;
+}
+span{
+    display: inline;
 }
